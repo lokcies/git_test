@@ -16,6 +16,12 @@
     preventing the new page from accessing the original page.-->
     <a href="https://www.theodinproject.com/about" target="_blank" rel="noreferrer noopener">About The Odin Project</a>
 
-    <a href="pages/about.html">About</a>
+    <!-- Include pages/ directory, using this path since it is relative to the index file -->
+    <a href="pages/about.html"><br>About</a>
+    <!-- Might encounter unexpected issues with relative approach -->
+    
+    <!-- By adding ./, it will look for path that is relative to current directory -->
+    <a href="./pages/about.html"><br>About</a>
+   
 </body>
 </html>
